@@ -3,7 +3,7 @@
 ## Red Black Tree
 * A red black tree is a kind of self-balancing binary search tree in computer science.  Each node ofthe binary tree has an extra bit, and that bit is often interpreted as the color (red or black) ofthe node.  These color bits are used to ensure the tree remains approximately balanced duringinsertions and deletions.  Balance is preserved by painting each node of the tree with one of twocolors in a way that satisfies certain properties, which collectively constrain how unbalancedthe tree can become in the worst case.  When the tree is modified, the new tree is subsequentlyrearranged  and  repainted  to  restore  the  coloring  properties.   The  properties  are  designed  insuch a way that this rearranging and recoloring can be performed efficiently.
 
-### Methods
+* Methods
 1.  getRoot:  return the root of the given Red black tree.
 2.  isEmpty:  return whether the given tree isEmpty or not.
 3.  clear:  Clear all keys in the given tree.
@@ -15,7 +15,7 @@
 ## Tree Map
 * A Red-Black tree based NavigableMap implementation.  The map is sorted according to thenatural ordering of its keys, or by a Comparator provided at map creation time, depending onwhich constructor is used.  This implementation provides guaranteed log(n) time cost for thecontainsKey, get, put and remove operations.  Algorithms are adaptations of those in Cormen,Leiserson, and Rivest’s Introduction to Algorithms.
 
-### Methods
+* Methods
 1.  ceilingEntry:  Returns a key-value mapping associated with the least key greater than orequal to the given key, or null if there is no such key.
 2.  ceilingKey:  Returns the least key greater than or equal to the given key, or null if thereis no such key.
 3.  clear:  Removes all of the mappings from this map.
